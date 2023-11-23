@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+    <div class="nav">
+        <div>
+          <a  class="links" href="index.html">login</a>
+        </div>
+        <div>
+          <a class="links" href="dashboard.html">Dashboard</a>
+        </div>
+        <div>
+          <a  class="links" href="event.html">Events</a>
+        </div>
+      </div>
+       
+
+      <div class="main">
+       
+       
+       <div class="form-div">
+        <h3>Add Events</h3>
+        <br>
+        <br>
+        <form >
+            <input id ="image" type="text" placeholder="Image">
+            <input id="name" type="text" placeholder="Name">
+            <input  id="description" type="text" placeholder="description">
+            <input id="date" type="date" placeholder="date">
+            <input id="location" type="text" placeholder="location">
+            <input id="category" type="text" placeholder="category">
+            <input id="price" type="number" placeholder="Price">
+            <button id="add-button">Add Event</button>
+        </form>
+        
+        <h4>update all fields of Book</h4>
+        <form action="">
+        <input type="text" id="update-book-id" class="u-full-width" placeholder="ID" />
+        <input type="text" id="update-book-title" class="u-full-width" placeholder="Title" />
+        <input type="text" id="update-book-image" class="u-full-width" placeholder="Image Url" />
+        <input type="text" id="update-book-desc" class="u-full-width" placeholder="Description" />
+        <input type="text" id="update-book-location" class="u-full-width" placeholder="location" />
+        <input type="text" id="update-book-category" class="u-full-width" placeholder="Category" />
+        <input type="number" id="update-book-price" class="u-full-width" placeholder="Price" />
+        <input type="date" id="update-date" class="u-full-width" placeholder="Date"/>
+
+        <button id="update-book" class="u-full-width button button-primary">
+          Update all fields
+        </button>
+      </form>
+        <hr />
+
+      
+      </div>
+
+      <div class="container">
+        <div class="data-list-wrapper" id="data-list-wrapper"></div>
+       </div>
+      
+    </div>
+    
+</body>
+<script type="module" src="dashboard.js"></script>
+</html>

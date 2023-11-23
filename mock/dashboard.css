@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+  /* https://mock-api-template-a9e2.onrender.com/events */
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: skyblue;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.links {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.links:hover {
+    background-color: #007BFF; /* Change the background color on hover */
+    color: #fff; /* Change the text color on hover */
+}
+
+/* ////////////////////////////////////// */
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container{
+    width: 70%;
+}
+
+.form-div{
+    width: 30%;
+}
+/* //////////////////////////////// */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Add this CSS to your existing CSS or create a new CSS file and link it in your HTML */
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header-row {
+    background-color: #007BFF;
+    color: white;
+}
+
+.data-table th, .data-table td {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+}
+
+.data-table img {
+    max-width: 100px;
+}
+
